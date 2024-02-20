@@ -1,2 +1,120 @@
-/* Your CSS styles here! */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+header {
+  background: #005f73;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav ul {
+  background: #0a9396;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #94d2bd;
+}
+
+label {
+  display: block;
+  margin: 20px 0 5px;
+}
+
+input[type="search"],
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button,
+input[type="submit"] {
+  background-color: #005f73;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background-color: #94d2bd;
+}
+
+section {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+h2,
+h3 {
+  color: #005f73;
+}
+
+address {
+  margin-top: 15px;
+  line-height: 1.5;
+}
+
+video {
+  margin: 20px 0;
+}
+
+form fieldset {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+legend {
+  padding: 0 5px;
+  font-weight: bold;
+}
